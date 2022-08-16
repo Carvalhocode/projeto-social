@@ -1,19 +1,19 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 * {
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body, html {
+    background-color: black;
     height: 100vh;
     width: 100vw;
-    margin: 0px;
 }
 
 body {
-    background-color: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background:  url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -31,5 +31,5 @@ section#telefone {
 
     height: 627px;
     width: 311px;
-    background-color: url('../imagens/frame-iphone.png') no-repeat;
+    background: url('../imagens/frame-iphone.png');
 }
